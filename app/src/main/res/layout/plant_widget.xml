@@ -19,6 +19,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical">
 
     <ImageView
@@ -36,5 +37,14 @@
         android:src="@drawable/grass" />
 
     <!-- TODO (4) Add a new TextView in plant_widget and set it to show the plant ID -->
+    <TextView
+        android:id="@+id/widget_plant_name"
+        tools:text="123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textStyle="bold" />
 
 </LinearLayout>
